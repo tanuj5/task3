@@ -90,7 +90,7 @@ accuracy_metric= open('/home/predicted.txt','w')
 accuracy_metric.write(str(scores[1]))
 accuracy_metric.close()
 
-display_accuracy = open('/home/result.html','r+')
+display_accuracy = open('/home/result.html','w')
 display_accuracy.read()
 # display_accuracy.write('<pre>\n---------------------------------------------\n')
 # display_accuracy.write(this_layer)
