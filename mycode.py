@@ -86,11 +86,11 @@ scores = model.evaluate(x_test2, y_test2, verbose=1)
 print('Test loss:', scores[0])
 print('Test accuracy:', scores[1])
 
-accuracy_metric= open('/task3/predicted.txt','w')
+accuracy_metric= open('/home/predicted.txt','w')
 accuracy_metric.write(str(scores[1]))
 accuracy_metric.close()
 
-display_accuracy = open('/task3/result.html','r+')
+display_accuracy = open('/home/result.html','r+')
 display_accuracy.read()
 # display_accuracy.write('<pre>\n---------------------------------------------\n')
 # display_accuracy.write(this_layer)
