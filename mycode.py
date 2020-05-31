@@ -91,7 +91,7 @@ accuracy_metric.write(str(scores[1]))
 accuracy_metric.close()
 
 display_accuracy = open('/home/result.html','w')
-display_accuracy.read()
+# display_accuracy.read()
 # display_accuracy.write('<pre>\n---------------------------------------------\n')
 # display_accuracy.write(this_layer)
 display_accuracy.write('\nAccuracy achieved : ' + str(scores[1])+'\n</pre>')
